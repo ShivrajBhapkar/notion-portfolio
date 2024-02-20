@@ -23,7 +23,7 @@ const Navbar = ({ navItems }: { navItems: TableOfContentsEntry[] }) => {
     >
       <div className="container">
         <div className="logo-con">
-          <div className="logo">Saga</div>
+          <div className="logo">Shiv</div>
           <div className="hamburger" onClick={toggleNavLinks}>
             {showLinks ? (
               <div className="cross"></div>
