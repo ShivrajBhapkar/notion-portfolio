@@ -65,7 +65,24 @@ body {
   position: relative;
   box-shadow: 3px 3px #282825;
 }
-
+.notion-block-d60fe07e3a494e08b79da810fbdc4c26  .notion-h-title {
+  background: linear-gradient(90deg, blue, green);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensures proper rendering */
+}
+.notion-block-d7b2939180354ad5bf2cbb0229cdfa96 .notion-h-title{
+   background: linear-gradient(90deg, green, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensures proper rendering */
+}
+.notion-block-a055e23c86c14acf8e8f9999d016e288 .notion-h-title{
+  background: linear-gradient(90deg, blue, green);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensures proper rendering */
+}
 .notion-collection-card:hover {
   background: inherit;
   transform: translate(-4px, -4px);
@@ -139,7 +156,9 @@ body {
 .notion-column{
   justify-content: center;
 }
-
+.notion-asset-wrapper .medium-zoom-image{
+  border-radius: 20px
+}
 /* Navbar */
 @import "Navbar.css";
 
